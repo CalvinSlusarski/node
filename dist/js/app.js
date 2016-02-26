@@ -38,7 +38,7 @@
             hexLineWidth: 2,
             hexSize: 40,
             // showCoordinates: true,
-            textures: ["images/texture/tileGrass_tile", "images/texture/tileWater_tile"],
+            textures: ["images/texture/tileGrass_tile.png", "images/texture/tileWater_tile.png"],
             terrainTypes: [
                 { name: "dirt", color: 0x9B5523 },
                 { name: "sand", color: 0xdBd588 },
