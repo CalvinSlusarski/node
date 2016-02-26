@@ -38,12 +38,19 @@
             hexLineWidth: 2,
             hexSize: 40,
             // showCoordinates: true,
-            textures: ["images/texture/tileGrass_tile.png", "images/texture/tileWater_tile.png"],
+            textures: [                
+                "images/tile/tileGrass.png",
+                "images/tile/tileSand.png",
+                "images/tile/tileDirt.png",
+                "images/tile/tileRock.png",
+                "images/tile/tileSnow.png",
+                "images/tile/tileWater.png"
+            ],
             terrainTypes: [
                 { name: "dirt", color: 0x9B5523 },
                 { name: "sand", color: 0xdBd588 },
                 { name: "snow", color: 0xebebfa },
-                { name: "water", textureIndex: 1,color: 0x3498db },
+                { name: "water", textureIndex: 5,color: 0x3498db },
                 { name: "grass", textureIndex: 0,color: 0x7aa451 }
             ],
             onAssetsLoaded: function () {
