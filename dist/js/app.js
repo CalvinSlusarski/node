@@ -47,9 +47,9 @@
                 "images/tile/tileWater.png"
             ],
             terrainTypes: [
-                { name: "dirt", color: 0x9B5523 },
-                { name: "sand", color: 0xdBd588 },
-                { name: "snow", color: 0xebebfa },
+                { name: "dirt", textureIndex: 2, color: 0x9B5523 },
+                { name: "sand", textureIndex: 1, color: 0xdBd588 },
+                { name: "snow", textureIndex: 4, color: 0xebebfa },
                 { name: "water", textureIndex: 5,color: 0x3498db },
                 { name: "grass", textureIndex: 0,color: 0x7aa451 }
             ],
