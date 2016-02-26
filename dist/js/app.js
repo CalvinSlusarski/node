@@ -43,8 +43,8 @@
                 { name: "dirt", color: 0x9B5523 },
                 { name: "sand", color: 0xdBd588 },
                 { name: "snow", color: 0xebebfa },
-                { name: "water", color: 0x3498db },
-                { name: "grass", color: 0x7aa451 }
+                { name: "water", textureIndex: 1,color: 0x3498db },
+                { name: "grass", textureIndex: 0,color: 0x7aa451 }
             ],
             onAssetsLoaded: function () {
                 try{
