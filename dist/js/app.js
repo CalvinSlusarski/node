@@ -32,11 +32,14 @@
 
     function getOptions() {
         return {
-            mapWidth: 10,
-            mapHeight: 8,
-            coordinateSystem: 3,
+            mapWidth: 30,
+            mapHeight: 30,
+            coordinateSystem: 2,
             hexLineWidth: 2,
-            hexSize: 40,
+            hexLineColor: 0xd0d0d0,
+            hexWidth: 65,
+            hexHeight: 65,
+            hexBottomPad: 24,
             // showCoordinates: true,
             textures: [                
                 "images/tile/tileGrass.png",
